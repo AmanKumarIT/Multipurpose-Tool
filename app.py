@@ -111,7 +111,8 @@ elif selection == "YouTube Audio Downloader":
                     ydl_opts = {
                         'format': 'bestaudio/best',
                         'outtmpl': os.path.join(tmpdir, '%(title)s.%(ext)s'),
-                        'quiet': True
+                        'quiet': True,
+                        'cookiefile': 'cookies.txt'
                     }
                     try:
                         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
