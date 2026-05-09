@@ -5,3 +5,4 @@ pyqrcode
 pypng
 yt-dlp
 Pillow
+pycryptodome
